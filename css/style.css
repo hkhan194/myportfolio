@@ -228,12 +228,12 @@ ul.social-icon a:hover{
 .menu-index i{
   float:right;
   font-size:18px;
-  color:blue;
+  color: #1b6ec2;
   padding-right:0px !important;
 }
 
 .menu-index i:hover{
-  color:red;
+  color: #6741d9;
 }
 
 
