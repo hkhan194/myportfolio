@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8">
-  <title>Hasan Khan - Caffeine Sipper</title>  
+  <title>Hasan Khan - Me</title>  
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="author" content="Khan Hasan">
   <link rel="icon" type="image/png" href="img/icon.png" />
@@ -38,20 +38,17 @@
         </div>
 
     <ul class="menu-fullscreen">      
-      <li><a href="index.html">Work</a></li>
+      <li><a href="index-no-sidebar.html">Work</a></li>
       <li><a href="about-us.html">Me</a></li>
       <li><a href="contact.html">Connect</a></li>
-      <li><a href="CV.pdf">CV</a></li>
+      <li><a href="contact.html">CV</a></li>
     </ul>
 
 </div>
 
-
   <!--Header-->
   <header id="fullscreen">
-    
-      <!--<div class="logo" id="full"><a class="ajax-link" href="index.html">THOMSOON</a></div>-->
-      
+          
         <div class="menu-index" id="button">
         <i class="fa fa-bars"></i>
         </div>
@@ -65,106 +62,57 @@
   <div class="content" id="ajax-content">
 
 
-        <div class="text-intro" id="site-type">
+        <div class="text-intro">
 
-        
-            <h1 class="typewrite"><span>I</span></h1>
-            <p>Web Designer / Developer </p>
+          <h1>About Me</h1>
+                    
+          <div class="one-column">
+            <p>Web Developer | UI/Web Designer </p>
+          
+          </div>
+
+
+          <div class="two-column">
+
+            <p>Hasan Khan, a Caffeine dependent life-form, seeker of knowledge. Specilizing in Front-End web technologies and graphics design.Currenly playing around with PHP and SQL. Inspiring painter and PC enthusiast. </p> 
+            
+            <br>
+            
+            <a href="#">View my CV</a>
+          
+          </div>          
+
 
         </div>
-
-
-  <!--Portfolio grid-->
-
-  <ul class="portfolio-grid">
-
-    
-    <li class="grid-item">
-      <a href="gdf.html"><img src="img/portfolio/gdf.png"></a>         
-    </li>
-
-    <li class="grid-item">
-      <a href="emporium.html"><img src="img/portfolio/emporium.png"></a>             
-    </li>    
-    
-    <li class="grid-item" >
-      <a href="blue-drop.html"><img src="img/portfolio/bluedrop.png"></a>           
-    </li>  
-    
-    <li class="grid-item">
-      <a href="quick-pound.html"><img src="img/portfolio/quickpound.png"></a>
-              
-    </li>    
-
-    <li class="grid-item" >
-      <a href="instant-lending.html"><img src="img/portfolio/ilending.png"></a>
-             
-    </li>    
-
-   <li class="grid-item" >
-      <a href="instant-Quid.html"><img src="img/portfolio/instantQuid.png"></a>
-             
-    </li>  
-    
-    <li class="grid-item" >
-      <a href="tres-chic.html"><img src="img/portfolio/treschic.png"></a>
-             
-    </li>  
-    
-    <li class="grid-item" >
-      <a href="starboy.html"><img src="img/portfolio/starboy.png"></a>
-             
-    </li>  
-
-  </ul>
-  
-  
-   <div class="text-intro" id="site-type">
-
         
-            <h2>Redesign Works</h2>
-            <p>  Concepts </p>
+        <div class="clear"></div>
 
-    </div>
-    
-    
-     <ul class="portfolio-grid">
-
-    
-    <li class="grid-item">
-      <a href="https://www.behance.net/gallery/45024021/Official-Kai-Greene-website-redesign-concept"><img src="img/portfolio/Capture.PNG"></a>         
-    </li>
-
-    <li class="grid-item">
-      <a href="https://www.behance.net/gallery/45106919/Dynamik-Muscle-website-resign-concept "><img src="img/portfolio/dynamik.png"></a>             
-    </li>    
-    
-    
-
-  </ul>
 
   </div>
 
-  
+
+
+  <!--Home Sidebar-->
+
+<div id="ajax-sidebar"></div>
+
+
   <!--Footer-->
 
-  <footer>
+  <footer id="ajax-footer">
 
     <div class="footer-margin">
       <div class="social-footer">
         <a href="https://twitter.com/Hasan_MCR"><i class="fa fa-twitter"></i></a>
         <a href="https://uk.linkedin.com/in/hasankhan1"><i class="fa fa-linkedin"></i></a>
-        <a href="https://www.behance.net/hkhan194b026"><i class="fa fa-behance"></i></a>      
+        <a href="https://uk.linkedin.com/in/hasankhan1"><i class="fa fa-behance"></i></a> 
       </div>     
       <div class="copyright">Designed and Developer by Hasan Khan</div>
-      
-
     
     </div>
 
 
   </footer>
-
 
 
 <!--Scripts-->
@@ -181,7 +129,7 @@
   <script src="js/script.js" type="text/javascript"></script>
   
 	<script>
-    $('#button').on('click', function() {
+    $('#button, #buttons').on('click', function() {
       $( ".opacity-nav" ).fadeToggle( "slow", "linear" );
     // Animation complete.
     });
